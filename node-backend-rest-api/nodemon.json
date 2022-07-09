@@ -1,9 +1,0 @@
-{
-    "env": {
-        "PORT": 5000,
-        "DB_USER": "vikasdb",
-        "DB_PASSWORD": "q66S8jGZWAGeaCIx",
-        "DB_NAME": "mern_project",
-        "JWT_KEY": "supersecret_dont_share"
-    }
-}
