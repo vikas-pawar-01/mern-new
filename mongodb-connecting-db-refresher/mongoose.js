@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Product = require('./models/product');
 
 mongoose.connect(
-    'mongodb+srv://vikasdb:vWxu1kf9liuPQJZZ@cluster0.v4byc.mongodb.net/product_test?retryWrites=true&w=majority'
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.v4byc.mongodb.net/product_test?retryWrites=true&w=majority`
 ).then(() => {
     console.log('Connected to database!')
 }).catch(() => {
